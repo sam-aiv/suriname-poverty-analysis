@@ -1,0 +1,31 @@
+# Data (not redistributed — see data/README.md)
+data/*.dta
+data/*.csv
+data/*.xlsx
+!data/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Build / packaging
+build/
+dist/
+*.egg
+
+# Project outputs
+appendix_exports/
+appendix_audits/
+*.log
+
+# Notebook / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
